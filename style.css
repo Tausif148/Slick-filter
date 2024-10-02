@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainwrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.sliderwrapper {
+    width: 95%;
+
+}
+
+
+.sliderwrapper img {
+    max-width: 100%;
+    width: 25%;
+}
+
+
+.sliderwrapper .slick-slide {
+    margin: 0 10px;
+}
+
+
+
+.sliderwrapper .slick-arrow {
+    background: #000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.sliderwrapper .slick-arrow:hover {
+    background: #000;
+}
+
+
+.sliderwrapper .slick-prev {
+    left: 0;
+}
+
+
+.sliderwrapper .slick-next {
+    right: 0;
+}
